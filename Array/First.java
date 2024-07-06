@@ -2,7 +2,7 @@ package Array;
 
 public class First {
     public static void main(String[] args) {
-        //int[] arr={1,2,3,4,5};
+        int[] arr={1,2,3,4,5};
 
 
     int[] ros ; //declaration of array.ros is getting defined in that stack.
@@ -24,14 +24,14 @@ public class First {
                    */
                     
     //integer array
-    int[] arr=new int[9];         //here this happens at run time 
+    int[] arrr=new int[9];         //here this happens at run time 
       System.out.println(arr[0]);
 
 
     //String array
 
      
-    String[] arr=new String[]
+    String[] arrrr=new String[0];
      System.out.println(arr[0]);
       
         }
