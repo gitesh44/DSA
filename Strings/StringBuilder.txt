@@ -1,0 +1,57 @@
+   
+   ** StringBuilder ** ***********************************************************
+   -is a mutable sequence of characters in Java. Unlike String, which is immutable,
+   - StringBuilder can be modified after it is created. 
+   -This makes StringBuilder more efficient than String for certain operations, 
+    such as concatenation, especially when dealing with large amounts of 
+    data or performing many string manipulations.
+
+Key Features of __StringBuilder__*************************************************
+Mutable: You can modify the contents of StringBuilder without creating new objects.
+Efficient: It is more efficient than using String when performing multiple concatenations.
+No Synchronization: Unlike StringBuffer, StringBuilder is not synchronized, which means it 
+                    is faster but not thread-safe.
+
+
+
+Imp COnstructor:*******************************************************************
+1. StringBuilder();
+2.StringBuilder(String str);
+3.StringBuilder(int Capacity);
+
+Functions in StringBuilder*********************************************************
+
+str.CharAt(index, characters);
+str.append(); //can be done in any datatypes
+str.insert(index,characters);
+str.deleteCharAt(index);
+str.reverse();
+str.delete(index from, index to);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
